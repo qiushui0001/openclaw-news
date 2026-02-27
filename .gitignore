@@ -1,0 +1,73 @@
+# OpenClaw 新闻简报 .gitignore
+
+# ===========================
+# 🔒 敏感信息（必须忽略）
+# ===========================
+
+# API Keys 和 Tokens
+*.env
+*.env.local
+*.key
+*.token
+*.secret
+auth-*.json
+*password*.json
+
+# 个人配置文件
+config/*.json
+!config/*.example
+
+# 状态和记录文件
+memory/*.json
+!memory/.gitkeep
+state/*.json
+logs/
+debug/
+cache/
+
+# ===========================
+# 💻 系统文件
+# ===========================
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+._*
+
+# ===========================
+# 🗂️ 临时文件
+# ===========================
+
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# ===========================
+# 🎯 OpenClaw 特定
+# ===========================
+
+.openclaw/local-*
+.openclaw/cache/
+.openclaw/logs/
+sessions/
+history/
+
+# ===========================
+# ✅ 应该保留的文件
+# ===========================
+
+# 配置模板
+!config/*.example
+
+# 文档
+!*.md
+!docs/*.md
+
+# 许可证
+!LICENSE
