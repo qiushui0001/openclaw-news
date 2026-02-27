@@ -302,9 +302,9 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 📮 联系方式
 
-- 项目地址：https://github.com/YOUR_USERNAME/openclaw-news
-- 问题反馈：https://github.com/YOUR_USERNAME/openclaw-news/issues
-- 讨论区：https://github.com/YOUR_USERNAME/openclaw-news/discussions
+- 项目地址：https://github.com/qiushui0001/openclaw-news
+- 问题反馈：https://github.com/qiushui0001/openclaw-news/issues
+- 讨论区：https://github.com/qiushui0001/openclaw-news/discussions
 
 ---
 
